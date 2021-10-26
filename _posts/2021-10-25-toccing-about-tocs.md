@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "TOCCing about TOC's"
-categories: linux mathematics efficiency
 ---
 
 # Topic

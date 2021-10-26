@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Custom X11 keyboard layout"
-categories: linux efficiency
 ---
 
 I made a script which allows you to generate custom keyboard layouts on x11, go and check it out!
