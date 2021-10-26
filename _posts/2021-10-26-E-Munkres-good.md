@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 ---
 ## A Good version of Electronic Munkres
 
