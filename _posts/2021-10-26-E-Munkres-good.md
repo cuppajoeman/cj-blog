@@ -1,6 +1,6 @@
 ---
-published: true
 layout: post
+title: E-Munkres upgraded
 ---
 ## A Good version of Electronic Munkres
 
