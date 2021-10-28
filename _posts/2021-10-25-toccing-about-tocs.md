@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "TOCCing about TOC's"
+title: TOCCing about TOC's
+published: true
 ---
 
 # Topic
@@ -55,9 +56,9 @@ Where tab's indicate nesting and slash with a number is the page number that it 
 
 The fact is that we're not done yet, because the page number in the pdf (the one that you would see in the physical copy) is not actually the real page number you see in your electronic version, this is because the first couple pages count toward the latter, but not towards the former, therefore we need to give each of the page numbers we generated a specific offset, this can be done through jpdfbookmarks using the delta symbol after selecting all bookmarks.
 
-But I found it easier to fix them with vim's regex.
+But I found it easier to fix them with vim's regex. Here are some helpful regex:
+
+* `%smagic/.*\zs\/\(\d\+\)/\= "\/" . (submatch(1)+1)/` - adds one to all page numbers
+* `'<,'>s/.*\zs\/\(\d\+\)/\= "\/" . (submatch(1)+1)/` - adds one to all page numbers in selection
 
 Once you have a text representation of your TOC you can now load that into jpdfbookmarks using the load bookmarks button. After saving the file we have a pdf with the correct TOC.
-
-
-
