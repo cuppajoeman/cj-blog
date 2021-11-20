@@ -7,7 +7,8 @@ tags: []
 Today I will give a reference table for standard chords including jazz chords.
 To be able to construct these quickly we will explain what the notation means:
 
-Some of the notation uses numbers, like X^9, these represent scale degrees, so 
+Some of the notation uses numbers, like X^9, these represent scale degrees of a
+standard major scale:
 
 | scale degrees | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | intervals     | 0 | 2 | 4 | 5 | 7 | 9 | 11| 0 |
@@ -17,16 +18,14 @@ continuing to go further yields
 | scale degrees | 8 | 9  | 10 | 11 | 12 | 13 | 14 | 15 |
 | intervals     | 0 | 2  | 4  | 5  | 7  | 9  | 11 | 0  |
 
-Meaning that X^9 is 0 2 4 7 10, so we understand that the 2 is coming from the
-9th scale degree from these tables.
-
 Also note that for the symbol X9, we can see it uses the intervals 0 2 4 7 10,
 so it's a combination of X7 plus the 9th (remember 9th is the interval 2 based
 on the tables above). Also note that for  X13 we have the intervals  
-0 2 4 5 7 9 10 but in practice we don't need to play all those notes at once to
-get the idea of X13 across, in general we can remove intervals which represent
-simple harmonics (being a harmonic means that it is very similar to the root
-tone), so it can be simplified to 0 2 5 9 10 (there are other options).
+0 2 4 5 7 9 10 so it's combining X9 with the 13th scale degree. In practice we
+don't need to play all those notes at once to get the idea of X13 across, in
+general we can remove intervals which represent simple harmonics (being a
+harmonic means that it is very similar to the root tone), so it can be
+simplified to 0 2 5 9 10 (there are other options).
 
 So when we have a chord with a number after it, it specifies all notes up to
 that N should be added (like in the X13 example above), but if we wrote Xadd11
