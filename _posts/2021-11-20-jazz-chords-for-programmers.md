@@ -98,3 +98,5 @@ Here is the table of all of the chords:
 | X13sus                                          | 0 2 5 7 9 10   |
 | X7b13sus                                        | 0 5 7 8 10     |
 | X11                                             | 0 2 4 5 7 10   |
+
+An altered chord is one that contains a 9th or a 5th which is sharpened or flatted, so for example 0 4 7 10 1 or 0 4 7 10 6 are examples of a X7 altered chord
